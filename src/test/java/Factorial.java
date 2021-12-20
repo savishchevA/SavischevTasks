@@ -6,7 +6,7 @@ public class Factorial {
         System.out.println("Enter a positive integer: ");
         int number = cons.nextInt();
         if (number==0){
-            System.out.println(0);
+            System.out.println(1);
         }else if(number<0){
             System.out.println("You entered an invalid number!");
         }
